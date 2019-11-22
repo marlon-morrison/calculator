@@ -1,0 +1,61 @@
+header {
+    text-align: center;
+}
+.frame {
+    border: 2px solid black;
+    padding-top: 50px;
+    background:#42000C;
+}
+span {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 35px 35px;
+    margin: -2px;
+    color: #fff;
+    background: #63000E;
+}
+span:hover {
+    background: #C01717;
+}
+.operations {
+    background: #910D15;
+}
+.percent {
+    padding: 34px 30px;
+}
+.numbers {
+    text-align: right;
+    font-size: 75px;
+    color: #fff;
+}
+.space {
+    margin-bottom: -4px;
+    padding: 33px 2px;
+}
+.ac {
+    padding: 34px 23px;
+}
+.integer {
+    padding: 34px 25px;
+}
+.plus {
+    padding: 35px 35px;
+}
+.divide {
+    padding: 34px 35px;
+}
+.minus {
+    padding: 35px 39px;
+}
+.equal {
+    padding: 35px 35px;
+}
+.desmical {
+    padding: 35px 39px;
+}
+.zero {
+    padding: 35px 79px;
+}
+.multiply {
+    padding: 35px 36px;
+}

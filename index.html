@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>calculator</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="frame">
+                        <div>
+                            <div class="numbers">
+                                <div id="oldOutput"></div>
+                                <div id="output">0</div>
+                            </div>
+                            <div class="space">
+                                <span class="ac" id="ac" data-value="AC">AC</span>
+                                <span class="integer operations" data-value="+/-">+/-</span>
+                                <span class="percent operations" data-value="%">%</span>
+                                <span class="divide operations" data-op="/">&divide;</span>
+                            </div>
+                            <div class="space">
+                                <span class="number" data-value="7">7</span>
+                                <span class="number" data-value="8">8</span>
+                                <span class="number" data-value="9">9</span>
+                                <span class="multiply operations" data-op="x">x</span>
+                            </div>
+                            <div class="space">
+                                <span class="number" data-value="4">4</span>
+                                <span class="number" data-value="5">5</span>
+                                <span class="number" data-value="6">6</span>
+                                <span class="minus operations" data-op="-">-</span>
+                            </div>
+                            <div class="space">
+                                <span class="number" data-value="1">1</span>
+                                <span class="number" data-value="2">2</span>
+                                <span class="number" data-value="3">3</span>
+                                <span class="plus operations" data-op="+">+</span>
+                            </div>
+                            <div class="space">
+                                <span class="number zero" data-value="0">0</span>
+                                <span class="desmical">.</span>
+                                <span  id="equals" class="equal" data-value="=" onclick="displayNum()" >=</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <input type="button1" value="change the color too">
+                </div>
+                <div class="col-sm-3">
+                    <input type="button2" value="change the color too">
+                </div>
+                <div class="col-sm-3">
+                    <input type="button3" value="change the color too">
+                </div>
+                <div class="col-sm-3">
+                    <input type="button4" value="change the color too">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
