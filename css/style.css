@@ -5,6 +5,32 @@ header {
     border: 2px solid black;
     padding-top: 50px;
     background:#42000C;
+    margin: 0 390px;
+}
+@media(max-width: 1199px) {
+    .frame {
+        margin: 0 290px;
+    }
+}
+@media(max-width: 991px) {
+    .frame {
+        margin: 0 180px;
+    }
+}
+@media(max-width: 750px) {
+    .frame {
+        margin: 0 179px;
+    }
+}
+@media(max-width: 430px) {
+    .frame {
+        margin: 0 17px;
+    }
+}
+@media(max-width: 380px) {
+    .frame {
+        margin: 0 -8px;
+    }
 }
 span {
     font-size: 30px;
@@ -28,12 +54,14 @@ span:hover {
     font-size: 75px;
     color: #fff;
 }
-.space {
-    margin-bottom: -4px;
-    padding: 33px 2px;
-}
+
 .ac {
     padding: 34px 23px;
+    background: #910D15;
+}
+.equal {
+    padding: 35px 35px;
+    background: #910D15;
 }
 .integer {
     padding: 34px 25px;
@@ -47,9 +75,7 @@ span:hover {
 .minus {
     padding: 35px 39px;
 }
-.equal {
-    padding: 35px 35px;
-}
+
 .desmical {
     padding: 35px 39px;
 }
@@ -58,4 +84,8 @@ span:hover {
 }
 .multiply {
     padding: 35px 36px;
+}
+.space {
+    margin-bottom: -4px;
+    padding: 33px 2px;
 }

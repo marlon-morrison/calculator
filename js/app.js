@@ -64,10 +64,10 @@ var displayNum = function() {
           resultNum = theNum;
       }
   
-      // Display result, finally!
+      // Display result
       output.innerHTML = resultNum;
   
-      // Now reset oldNum & keep result
+      //Reset oldNum & keep result
       oldNum = 0;
       theNum = resultNum;
     };
